@@ -18,7 +18,7 @@ body {
     border-bottom: 20px solid rgb(88, 50, 3);
     margin: 0 auto; */
     background-color: #B17D14;
-    background-image: url("/images/crow.jpg");
+    background-image: url("../images/crow.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
