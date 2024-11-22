@@ -11,12 +11,6 @@ body {
 }
 
 #container {
-    /* 
-    border-left: 20px solid rgb(184, 110, 20);
-    border-top: 20px solid rgb(184, 110, 20);
-    border-right: 20px solid rgb(88, 50, 3);
-    border-bottom: 20px solid rgb(88, 50, 3);
-    margin: 0 auto; */
     background-color: #B17D14;
     background-image: url("../images/crow.jpg");
     background-repeat: no-repeat;
@@ -24,7 +18,7 @@ body {
     background-size: 100% 100%;
     border: 1em outset #B0893B;
     font-weight: 900;
-    color: #1E1616
+    color: #1E1616;
 }
 
 h2 {
@@ -71,5 +65,5 @@ footer {
 
 footer p:nth-child(1) {
 
-    color: #F4C76C
+    color: #F4C76C;
 }
