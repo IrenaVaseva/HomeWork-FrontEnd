@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 Georgia, serif;
+}
+
+.container {
+    font-size: 0.8em;
+    width: 800px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: 5px solid rgb(199, 196, 196);
+}
+
+h2 {
+    color: #7b7d7e;
+    text-align: center;
+}
+
+h2,
+p {
+    padding: 20px;
+}
+
+p {
+    text-align: left;
+}
+
+.container p:nth-child(even) {
+    background-color: #41484E;
+    color: #DDD;
+}
+
+.container p:nth-child(odd) {
+    background-color: #5E6F7D;
+    color: #EEE;
+}
