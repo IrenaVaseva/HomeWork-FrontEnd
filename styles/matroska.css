@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #821717;
+}
+
+.innerElement {
+    position: absolute;
+    border: 3px solid #F1E971;
+    background: #821717;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+.innerElement:hover {
+    background: #F1E971;
+}
+
+.innerElement.last {
+    background: #F1E971;
+}
+
+.innerElement.last:hover{
+    background: #821717;
+}
